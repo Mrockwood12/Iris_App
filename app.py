@@ -20,7 +20,7 @@ if page == 'Home':
              You can visualize the distribution of data, explore relationships between features, and even make predictions on new data!
              Use the sidebar to navigate through the sections.
              """)
-    st.image('https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg>', caption="The Iris Flower")
+    st.image('https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg', caption="The Iris Flower")
 
 #Data Overview
 elif page == 'Data Overview':
@@ -147,6 +147,7 @@ elif page == 'Extras':
 
     #Now insert some more into the container
     container.write("this is inside too")
+
 
 
 
